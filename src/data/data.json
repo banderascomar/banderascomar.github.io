@@ -1,10 +1,12 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Conseguí tu bandera",
+    "paragraph": "Tenemos todo en banderas y ornamentación."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Somos una empresa dedicada al diseño, fabricación y distribución de banderas que cuenta con más de 10 años de experiencia en el rubro.",
+    "paragraph2": "Brindamos la solución para su empresa, no solo nos dedicamos a las banderas argentinas, sino también a banderas personalizadas, provinciales, internacionales, de fútbol y car flags. Ademas, comercializamos todo tipo de ornamentación, banderas de ceremonia, escarapelas, pines y realizamos lluvia de banderitas para tu evento.",
+    "paragraph3": "Trabajamos con materiales de excelente calidad ya sea banderas de papel, banderas plástico o banderas de lona vinílica lo cual garantiza una larga durabilidad.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,47 +22,47 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Banderas argentinas",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Banderas provinciales",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Banderas internacionales",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Banderas de fútbol",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Banderas de ceremonia, moño y tahali",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Astas y bases",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Banderas de escritorio",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Escarapelas",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Pines",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -152,9 +154,12 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Volta 1811 (Altura Av. Luis María Campos 850)",
+    "address2": "Las Cañitas, Palermo, Ciudad de Buenos Aires.",
+    "phone": "(011) 4779-2197",
+    "phone2": "(011) 4777-7584",
+    "email": "ventas@banderas.com.ar",
+    "email2": "festilandiaargentina@hotmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

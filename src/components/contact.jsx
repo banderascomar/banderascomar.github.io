@@ -36,112 +36,45 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
-          <div className='col-md-8'>
-            <div className='row'>
-              <div className='section-title'>
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        type='text'
-                        id='name'
-                        name='name'
-                        className='form-control'
-                        placeholder='Name'
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className='help-block text-danger'></p>
-                    </div>
-                  </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
-                      <input
-                        type='email'
-                        id='email'
-                        name='email'
-                        className='form-control'
-                        placeholder='Email'
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className='help-block text-danger'></p>
-                    </div>
-                  </div>
-                </div>
-                <div className='form-group'>
-                  <textarea
-                    name='message'
-                    id='message'
-                    className='form-control'
-                    rows='4'
-                    placeholder='Message'
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className='help-block text-danger'></p>
-                </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
-            <div className='contact-item'>
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className='fa fa-map-marker'></i> Address
-                </span>
-                {props.data ? props.data.address : 'loading'}
-              </p>
-            </div>
-            <div className='contact-item'>
-              <p>
-                <span>
-                  <i className='fa fa-phone'></i> Phone
-                </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
-              </p>
-            </div>
-            <div className='contact-item'>
+          <h2>Contacto</h2>
+        </div>
+        <div className='container'>
+          <div className='col-md-3 contact-info'>
+          <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                </span>{' '}</p>
+                <p>{props.data ? props.data.email : 'loading'}</p>
+                <p>{props.data ? props.data.email2 : 'loading'}
               </p>
             </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-phone'></i> Teléfono
+                </span>{' '}</p>
+                <p>{props.data ? props.data.phone : 'loading'}</p>
+                <p>{props.data ? props.data.phone2 : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-map-marker'></i> Oficina
+                </span></p>
+                <p>{props.data ? props.data.address : 'loading'}</p>
+                <p>{props.data ? props.data.address2 : 'loading'}</p>
+              <b>Coordinar cita previa.
+              </b>
+            </div>
           </div>
-          <div className='col-md-12'>
+          <div className='col-md-9'>
             <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
+              <div className='section-title'>
+                <div class="map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.4318988434766!2d-58.43852038482738!3d-34.56793668046876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bdf096ebf7%3A0x9b3551bb10524e94!2sBanderas.com.ar!5e0!3m2!1ses!2sar!4v1674514986970!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -149,12 +82,7 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
-          </p>
+          <h5>Hacemos ventas por mayor y menor. Envios a todo el país.</h5>
         </div>
       </div>
     </div>
