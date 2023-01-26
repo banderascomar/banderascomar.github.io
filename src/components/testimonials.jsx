@@ -13,8 +13,8 @@ export const Testimonials = (props) => {
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
-            <div class="video-responsive">
-              <iframe height="250" src="https://www.youtube.com/embed/HYZaVFUNMuw?controls=0&amp;clip=UgkxqslGouxRFFgp2BB_mnd1BFuCwUY6g9AN&amp;clipt=EPrh5QEY_LDmAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div className="video-responsive">
+              <iframe height="250" src="https://www.youtube.com/embed/HYZaVFUNMuw?controls=0&amp;clip=UgkxqslGouxRFFgp2BB_mnd1BFuCwUY6g9AN&amp;clipt=EPrh5QEY_LDmAQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
           </div>
         </div>
