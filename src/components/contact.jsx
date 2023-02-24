@@ -22,7 +22,8 @@ export const Contact = (props) => {
                   <i className='fa fa-phone'></i> Teléfono
                 </span>{' '}</p>
                 <p>{props.data ? props.data.phone : 'loading'}</p>
-                <p>{props.data ? props.data.phone2 : 'loading'}
+                <p>{props.data ? props.data.phone2 : 'loading'}</p>
+                <p>{props.data ? props.data.phone3 : 'loading'}
               </p>
             </div>
             <div className='contact-item'>

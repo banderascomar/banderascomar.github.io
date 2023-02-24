@@ -28,6 +28,15 @@ const App = () => {
       <About data={landingPageData.About} />
       <Testimonials data={landingPageData.Testimonials} />
       <Contact data={landingPageData.Contact} />
+
+      <a
+        href="https://wa.me/+5491134440777"
+        className="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </div>
   );
 };
