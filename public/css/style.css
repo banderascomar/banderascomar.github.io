@@ -422,7 +422,10 @@ header .intro-text {
 #contact .section-title {
   margin-bottom: 40px;
 }
-#contact .section-title p {
+#contact a{
+  color: #fff;
+}
+#contact .section-title p{
   font-size: 16px;
 }
 #contact h2 {
