@@ -12,19 +12,16 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}</p>
-                <p>{props.data ? props.data.email : 'loading'}</p>
-                <p>{props.data ? props.data.email2 : 'loading'}
-              </p>
+                <a href = "mailto:festilandiaargentina@hotmail.com">{props.data ? props.data.email2 : 'loading'}</a>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Teléfono
                 </span>{' '}</p>
-                <p>{props.data ? props.data.phone : 'loading'}</p>
-                <p>{props.data ? props.data.phone2 : 'loading'}</p>
-                <p>{props.data ? props.data.phone3 : 'loading'}
-              </p>
+                <a href="tel:4777-7584">{props.data ? props.data.phone2 : 'loading'}</a>
+                <a href="tel:+54-911-3444-0777">{props.data ? props.data.phone3 : 'loading'}
+              </a>
             </div>
             <div className='contact-item'>
               <p>
