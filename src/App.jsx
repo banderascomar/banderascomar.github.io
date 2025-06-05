@@ -30,6 +30,7 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
 
       <a
+        onclick="gtag_report_conversion();"
         href="https://wa.me/+5491134440777"
         className="whatsapp_float"
         target="_blank"
