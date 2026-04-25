@@ -20,6 +20,24 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+  const handleClick = (e) => {
+    const url = "https://wa.me/+5491171910777";
+
+    const callback = () => {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-955758454/GbT3CO6d0tMaEPbu3scD',
+        event_callback: callback
+      });
+    } else {
+      // fallback si gtag no está definido
+      callback();
+    }
+  };
+
   return (
     <div>
       <Navigation />
@@ -30,8 +48,8 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
 
       <a
-        onclick="gtag_report_conversion();"
-        href="https://wa.me/+5491134440777"
+        onClick={handleClick}
+        href="https://wa.me/+5491171910777"
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
